@@ -10,3 +10,4 @@ RUN mkdir -p /root/.m2/repository/ \
 	&& du -hsl /root/.m2/repository/
 
 
+CMD ["exit", "0"]
